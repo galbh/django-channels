@@ -9,7 +9,7 @@ ENVIRONMENTS = {
 }
 
 # CHANGE TO - ENVIRONMENTS['production'] - BEFORE DEPLOYING !
-ENVIRONMENT = ENVIRONMENTS['production']
+ENVIRONMENT = ENVIRONMENTS['development']
 
 print('running in {} environment'.format(ENVIRONMENT))
 

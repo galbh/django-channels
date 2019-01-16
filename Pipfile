@@ -13,6 +13,7 @@ twisted = "*"
 psycopg2-binary = "*"
 python-decouple = "*"
 whitenoise = "*"
+"pywin32" = "*"
 
 [dev-packages]
 
