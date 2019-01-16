@@ -1,0 +1,41 @@
+@import '../../../../assets/scss/variables.scss';
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-regular;
+
+  .card{
+    width: 500px;
+
+    .cardContent{
+      padding-top: 0!important;
+    }
+  }
+
+  form{
+    button{
+      width: 100%;
+    }
+
+    input{
+      font-size: $font-size-regular;
+      color: $primary-text-color;
+    }
+
+    label{
+      font-size: $font-size-medium;
+      color: $secondary-text-color;
+
+      &::first-letter{
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  button{
+    background-color: $bg!important;
+  }
+}
+

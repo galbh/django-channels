@@ -1,0 +1,22 @@
+@import '../../../assets/scss/variables.scss';
+
+.wrapper{
+  padding: $frame-padding;
+  height: calc(100% - 64px);
+  overflow: auto;
+}
+
+.wrapper > div{
+  height: 100%;  
+}
+
+.container{
+  height: calc(100% - 32px);
+  min-height: 373px;
+}
+
+.wrapper > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

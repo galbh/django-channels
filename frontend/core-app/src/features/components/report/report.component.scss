@@ -1,0 +1,28 @@
+@import '../../../../assets/scss/variables.scss';
+
+.container{
+
+  .timeStamp{
+    color: $primary-text-color;
+    font-size: $font-size-medium;
+    font-weight: bold;
+  }
+
+  .usersList{
+    color: $secondary-text-color;
+
+    li{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      height: 34px!important;
+    }
+
+    span{
+      font-size: $font-size-regular;
+    }
+  }
+
+  .deleteTimeSlotIcon{
+    font-size: 24px!important;
+  }
+}

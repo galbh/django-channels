@@ -1,0 +1,32 @@
+@import '../../../../assets/scss/variables.scss';
+
+.container{
+  form{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    input{
+      color: $secondary-text-color;
+      font-size: $font-size-regular;
+    }
+
+    button.submitBtn{
+      width: 100%;
+    }
+
+    label{
+      color: $secondary-text-color;
+      padding-bottom: 10px;
+      display: inline-block;
+    }
+  }
+
+  button{
+    flex: 1!important;
+  }
+}
+
+.container, .container form{
+  height: 100%; 
+}

@@ -1,0 +1,14 @@
+@import '../../../../assets/scss/variables.scss';
+
+.container{
+  li{
+    height: 32px!important;
+    padding: 0;
+
+    span{
+      color: $primary-text-color!important;
+      font-size: $font-size-regular!important;
+    }
+  }
+  
+}

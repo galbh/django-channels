@@ -1,0 +1,21 @@
+@import '../../../../assets/scss/variables.scss';
+
+.buttonsContainer{
+  margin-top: 20px;
+}
+
+label{
+  font-size: $font-size-medium!important;
+  &::first-letter{
+    text-transform: capitalize;
+  }
+}
+
+input{
+  color: $secondary-text-color!important;
+  font-size: $font-size-regular!important;
+}
+
+.input > div{
+  height: 25px;
+}

@@ -1,0 +1,15 @@
+@import '../assets/scss/variables.scss';
+
+body{
+  background: $bg-secondary;
+}
+
+.container{  
+  height: 100%;
+}
+
+:global{
+  #root{
+    height: 100%;
+  }
+}

@@ -1,0 +1,60 @@
+@import '../../../../assets/scss/variables.scss';
+
+.header{
+  background-color: $bg-secondary!important;
+  line-height: 60px;
+  height: 60px!important;
+
+  > div{
+    padding-left: 18px;
+    padding-right: 18px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .title{
+      padding: 0 20px;
+  }
+
+  .actions{
+    display: flex;
+    align-items: center;
+
+    > div{
+      padding: 0 6px;
+      color: $text-color;
+      font-weight: bold;
+    }
+
+    .userMenuButton{
+      user-select: none;
+      > div{
+        display: flex;
+        align-items: center;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}
+
+.userMenu{
+  width: 200px;
+
+  li:hover{
+    color: $secondary-text-color;
+    .icon{
+      color: $secondary-icon-color;
+    }
+  }
+
+  .icon{
+    color: $primary-icon-color;
+    margin: 0 10px;
+    transition: 0.4s;
+  }
+}

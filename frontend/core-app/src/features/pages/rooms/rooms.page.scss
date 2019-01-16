@@ -1,0 +1,65 @@
+@import '../../../../assets/scss/variables.scss';
+
+.container{
+
+  .listItem{
+    width: 100%;
+    align-items: stretch;
+    padding: 0;
+    text-align: left;
+
+    > div, > span > div{
+      width: 100%;
+    }
+
+    .subtitle{
+      text-transform: capitalize;
+      text-align: center;
+      font-size: $font-size-regular;
+    }
+
+    .onlineUsers{
+      text-transform: initial;
+      margin: 0 -10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+
+      > div{
+        margin: 0 10px;
+        color: $secondary-text-color;
+        font-size: $font-size-regular;
+      }
+    }
+  }
+
+  .moreOptionsBtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: $primary-icon-color;
+  }
+}
+
+.moreOptionsList{
+  .icon{
+    color: $primary-icon-color;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  label{
+    color: $primary-text-color;
+    font-size: $font-size-regular!important;
+    font-weight: 200;
+  }
+    
+}
+
+.confirmDeleteRoom{
+
+  button{
+    margin-top: 20px;
+  }
+}

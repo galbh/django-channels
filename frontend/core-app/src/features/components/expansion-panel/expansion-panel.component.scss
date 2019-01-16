@@ -1,0 +1,24 @@
+@import '../../../../assets/scss/variables.scss';
+
+.container{
+
+  .title{
+    padding: 0 15px;
+    color: $primary-text-color;
+  }
+
+  .title{
+    font-weight: bold;
+    font-size: $font-size-regular;
+    text-transform: uppercase;
+  }
+
+  .content{
+    flex-direction: column;
+    padding: 0 15px 15px 15px;
+
+    .divider{
+      margin: 0 -24px;
+    }
+  }
+}

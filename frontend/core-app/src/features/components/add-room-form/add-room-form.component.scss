@@ -1,0 +1,21 @@
+@import '../../../../assets/scss/variables.scss';
+
+form{
+
+  input{
+    color: $secondary-text-color!important;
+    font-size: $font-size-regular!important;
+  }
+
+  label{
+    font-size: $font-size-regular!important;
+    
+    &::first-letter{
+      text-transform: capitalize;
+    }
+  }
+
+  button{
+    width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+@import '../../../../assets/scss/variables.scss';
+
+.container{
+  
+  label{
+    text-transform: capitalize;
+    font-size: $font-size-medium;
+    color: $primary-text-color;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+
+  p, li span{
+    font-size: $font-size-regular;
+    color: $secondary-text-color;
+  }
+
+  li{
+
+    .timeSlotDate {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .section{
+    padding-bottom: 45px!important;
+  }
+
+  .timeSlotsList{
+    width: 100%;
+  }
+
+  .divider{
+    width: calc(100% + 30px);
+    margin: 0 -15px 15px;
+  }
+}
+
+.noPadding{
+  padding: 0!important;
+}
